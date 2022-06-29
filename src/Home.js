@@ -2,17 +2,19 @@ import React from "react";
 import ImageOne from "../src/images/portrait.jpg"
 function Home() {
   return (
-    <div className=" h-screen">
-      <div className=" flex pl-12  pb-6">
+    <div className="h-screen">
+      <div className="md:flex md:flex-col md:items-center ">
+      <div className="flex items-center pl-12 md:pl-0 pb-6">
         <img alt="car" className="h-40 md:h-48 rounded-3xl" src={ImageOne} />
         <div className="px-6">
           <div className="pt-8 text-lg text-white font-bold">Arvin Benipal</div>
           <div className="py-1 text-sm text-white font-light">Welcome to my digital portfolio</div>
-          
         </div>
       </div>
-
-    <div className='sm:flex space-y-4 px-12 pb-10 sm:space-y-0 sm:space-x-20  '>
+      </div>
+      
+      
+      <div className='sm:flex space-y-4 px-12 md:px-16 pb-10 md:pt-5 sm:space-y-0 sm:space-x-20  '>
         <div className='"flex py-6 px-5 font-bold text-sm opacity-80 bg-sky-100 transform motion-safe:hover:scale-105 hover:bg-sky-200 rounded-3xl hover:shadow-lg '>
             Education
             <text className='flex flex-col font-light pt-1'> Computer Science (BSc) at Wilfrid Laurier University </text>
@@ -29,7 +31,9 @@ function Home() {
             E-Commerce
             <text className='flex flex-col font-light pt-1'> Led and assisted in multiple online start-ups </text>
         </div>
-    </div>
+    
+      </div>
+    
     </div>
   );
 }

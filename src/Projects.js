@@ -7,7 +7,7 @@ function Projects() {
       </div>
       <div id="Content" className=" flex flex-col justify-center items-center pb-5">
                   <div classname= "lg:grid lg:grid-cols-2">
-                      <div class="grid grid-flow-col grid-cols-2 grid-rows-2 gap-6 gap-y-10 text-xs pt-10 mx-8 md:mx-48 lg:mx-96 ">
+                      <div class="grid grid-flow-col grid-cols-2 grid-rows-2 gap-6 md:gap-10 gap-y-10 text-xs pt-10 mx-8 md:px-10  ">
                           <div className="p-6 bg-sky-100 rounded-3xl shadow-lg opacity-80 font-bold transform hover:scale-105"> Classic Snake Game
                               <li className="pt-2 font-normal">Programmed and designed classic snake game using python language</li>
                               <li className="pt-2 pb-4 font-normal">Used data structure frameworks and implemented custom graphics into code</li>

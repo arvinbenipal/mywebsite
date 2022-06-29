@@ -3,11 +3,14 @@ import ImageTwo from "../src/images/resume.pdf"
 
 function Resume() {
   return (
-    <div className="h-screen justify-center text-md font-bold">
-      <div className="text-white flex justify-center pb-5">
+    <div className="h-screen text-md font-bold pb-50">
+      <div className="flex justify-center text-white pb-5">
         Resume
       </div>
-        <img alt="car" className="" src={ImageTwo} />
+      <div className="flex justify-center">
+      <img alt="car" className="" src={ImageTwo} /> 
+      </div>
+        
     </div>
   );
 }
